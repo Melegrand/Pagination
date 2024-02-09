@@ -1,1 +1,1 @@
-export { Breadcrumb } from "./index";
+export { Pagination } from "./index";

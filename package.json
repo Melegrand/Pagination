@@ -1,6 +1,6 @@
 {
-  "name": "react-pagination",
-  "version": "1.1.4",
+  "name": "react-pagination-accessible",
+  "version": "1.0.1",
   "description": "A simple component to add an accessible Pagination in your react application",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Melegrand/Pagination.git"
+    "url": "git+https://github.com/Melegrand/react-pagination.git"
   },
   "keywords": [
     "react", "pagination", "accessible", "customizable"
@@ -19,9 +19,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Melegrand/Pagination/issues"
+    "url": "https://github.com/Melegrand/react-pagination/issues"
   },
-  "homepage": "https://github.com/Melegrand/Pagination#readme",
+  "homepage": "https://github.com/Melegrand/react-pagination#readme",
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
