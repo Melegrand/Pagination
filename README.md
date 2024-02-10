@@ -9,7 +9,7 @@ This package was created with the purpose of simplifying the implementation of a
 Install this package:
 
 ```shell
-npm react-pagination-accessible@1.0.2
+npm react-pagination-accessible@1.0.3
 ```
 
 Import the Pagination component:
@@ -28,6 +28,7 @@ You can integrate this component as a simple React component.
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
             itemsPerPage={itemsPerPage}
+            visiblePages={visiblePages}
             totalItems={data.length}
         />
     );
@@ -39,6 +40,9 @@ The parameters are states to be defined in the component where Pagination will b
 * currentPage is the index where pagination will initially appear. 
 * setCurrentPage is the setter for the currentPage state.
 * itemsPerPage is the number of items to display per page.
+* "visiblePages" corresponds to the number of page tabs to display in total.
+* * Example: For 5: will be << < 1 2 3 4 5 > >>
+* * Example: For 10: will be << < 1 2 3 4 5 6 7 8 9 10 > >>
 * totalItems represents the total number of items to distribute across the different pages.
 
 ```js
@@ -58,6 +62,7 @@ The parameters are states to be defined in the component where Pagination will b
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
             itemsPerPage={itemsPerPage}
+            visiblePages={visiblePages}
             totalItems={data.length}
         />
     );
@@ -98,6 +103,7 @@ const Component = () => {
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
             itemsPerPage={itemsPerPage}
+            visiblePages={visiblePages}
             totalItems={data.length}
         />
     );

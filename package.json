@@ -1,6 +1,6 @@
 {
   "name": "react-pagination-accessible",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple component to add an accessible Pagination in your react application",
   "main": "index.js",
   "scripts": {
